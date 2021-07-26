@@ -6,10 +6,10 @@ spring:
     config:
       server:
         git:
-          url: https://github.com/Mahlopez/ms-course-youtube.git
-          searchPath: config-data
-          username: ${GIT_USER}
+          uri: https://github.com/Mahlopez/ms-course-youtube.git
+          search-paths: config-data
           password: ${GIT_PASSWORD}
+          username: ${GIT_USER}
   security:
     user:
       name: root
