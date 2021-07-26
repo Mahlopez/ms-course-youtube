@@ -8,7 +8,7 @@ spring:
         git:
           url: https://github.com/Mahlopez/ms-course-youtube.git
           searchPath: config-data
-          username: ${git_user}
+          username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
     user:
