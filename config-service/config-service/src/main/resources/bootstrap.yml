@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          url: https://github.com/Mahlopez/ms-course-youtube.git
+          searchPath: config-data
+          username: ${git_user}
+          password: ${GIT_PASSWORD}
+  security:
+    user:
+      name: root
+      password: s3cr3t
