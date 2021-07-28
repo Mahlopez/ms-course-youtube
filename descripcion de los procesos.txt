@@ -1,0 +1,7 @@
+spring cloud server cap 12
+	spring cloud server es un servidor centralizado de configuracion de nuestros microservicios
+
+Eureka server cap 13
+	permite registrar como localizar las
+	instancias de nuestros microservicios que estan corriendo
+
